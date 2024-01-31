@@ -1,1 +1,40 @@
-Data queries to combine the data
+-- I wanted to combine the data from all the months to a single table:
+
+SELECT *
+FROM `my-project-gda-410913.Months.January`AS January
+UNION ALL
+SELECT *
+FROM `my-project-gda-410913.Months.February`AS February
+UNION ALL
+SELECT *
+FROM `my-project-gda-410913.Months.March`AS March
+UNION ALL
+SELECT *
+FROM `my-project-gda-410913.Months.April`AS April
+UNION ALL
+SELECT *
+FROM `my-project-gda-410913.Months.May`AS May
+UNION ALL
+SELECT *
+FROM `my-project-gda-410913.Months.June`AS June
+UNION ALL
+SELECT *
+FROM `my-project-gda-410913.Months.July`AS July
+UNION ALL
+SELECT *
+FROM `my-project-gda-410913.Months.August`AS August
+UNION ALL
+SELECT *
+FROM `my-project-gda-410913.Months.September`AS September
+UNION ALL
+SELECT *
+FROM `my-project-gda-410913.Months.October`AS October
+UNION ALL
+SELECT *
+FROM `my-project-gda-410913.Months.November`AS November
+UNION ALL
+SELECT *
+FROM `my-project-gda-410913.Months.December`AS December
+
+– Then saved the query result as a new table named "All"
+
