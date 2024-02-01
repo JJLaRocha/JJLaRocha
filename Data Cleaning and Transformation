@@ -1,1 +1,63 @@
+–Checking for null values; I repeated the process for all columns
 
+SELECT *
+FROM Months.ALL
+WHERE ride_id IS NULL
+
+– I ran the following query to eliminate duplicate rows (which I knew were by running the first query of the following). Being the ride_id column the primary key:
+
+SELECT
+COUNT(ride_id) - COUNT(DISTINCT(ride_id))
+FROM 
+Months.ALL;
+
+DELETE FROM `my-project-gda-410913.Months.ALL`
+WHERE ride_id IN (
+  SELECT ride_id 
+  FROM Months.ALL
+  GROUP BY ride_id
+  HAVING COUNT(*) > 1
+
+--Saved the new table as ALL_MONTHS. I figured I didn’t have a column for the duration as I was using the ended_at - started_at always and was turning a bit confusing so I decided to add the column as number of hours to facilitate:
+
+SELECT
+*,
+TIMESTAMP_DIFF(ended_at, started_at, MINUTE) AS Minutes
+FROM Months.ALL_MONTHS;
+
+SELECT
+*,
+CAST((Minutes/60)AS FLOAT64) AS Hours
+FROM Months.ALL_MONTHS
+
+-- I also wanted to add a column for month, other for weekday and other for hour of day:
+
+CREATE TABLE IF NOT EXISTS Months.ALL AS(
+  SELECT
+   *,
+   CASE EXTRACT(MONTH FROM started_at) 
+      WHEN 1 THEN 'Jan'
+      WHEN 2 THEN 'Feb'
+      WHEN 3 THEN 'Mar'
+      WHEN 4 THEN 'Apr'
+      WHEN 5 THEN 'May'
+      WHEN 6 THEN 'Jun'
+      WHEN 7 THEN 'Jul'
+      WHEN 8 THEN 'Aug'
+      WHEN 9 THEN 'Sep'
+      WHEN 10 THEN 'Oct'
+      WHEN 11 THEN 'Nov'
+      WHEN 12 THEN 'Dec' 
+   END AS Month,
+   CASE EXTRACT(DAYOFWEEK FROM started_at)
+      WHEN 1 THEN 'Sun'
+      WHEN 2 THEN 'Mon'
+      WHEN 3 THEN 'Tue'
+      WHEN 4 THEN 'Wed'
+      WHEN 5 THEN 'Thu'
+      WHEN 6 THEN 'Fri'
+      WHEN 7 THEN 'Sat' 
+   END AS Weekday,
+   EXTRACT(HOUR FROM started_at) AS Hour
+  FROM Months.ALL_MONTHS
+)
