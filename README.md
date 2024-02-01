@@ -42,4 +42,6 @@ The data consists of a table for every ride taken in each one of the year's mont
 
 ## Process
 
-The data of all months was combined in order to paint the picture for the whole year. All of the data merging and analysis was done with BigQuery since this dataset is too large to be worked in spreadsheets.
+The data of all months was combined in order to paint the picture for the whole year through this [query](https://github.com/JJLaRocha/JJLaRocha/blob/JJLaRocha-patch-2/Data%20Combining). All of the data merging and analysis was done with BigQuery since this dataset is too large to be worked in spreadsheets.
+
+In this stage, all the data was also cleaned and transformed. Checking for the existance of null and duplicate values was made, as well as the elimination of these values when they were found. Also, the tables, after combined into a single table, were transformed to better suit the analysis goals! An example of transformation was the addition of 3 new columns. You can find all the alterations made and the reasoning for each one of them in [here](https://github.com/JJLaRocha/JJLaRocha/blob/JJLaRocha-patch-2/Data%20Cleaning%20and%20Transformation)
