@@ -43,3 +43,15 @@ The data consists of a table for every ride taken in each one of the year's mont
 ## Process
 
 The data of all months was combined in order to paint the picture for the whole year. All of the data merging and analysis was done with BigQuery since this dataset is too large to be worked in spreadsheets. With that being said, all the data was manipulated through SQL queries, more specifically with BigQuery.
+
+The query used to combine all the 12 csv files was [this](https://github.com/JJLaRocha/JJLaRocha/blob/JJLaRocha-patch-2/Data%20Combining).
+
+### Data Cleaning
+
+SQL Query: 
+
+1. All the rows of the primary key (ride_id) were deleted.
+2. I added 3 columns to make the analysis easier and more objective: ride duration, month and day of the week.
+
+
+
