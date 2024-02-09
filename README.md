@@ -38,8 +38,8 @@ This is public data that can be used to explore how different customer types are
 
 ### Data Content
 
-The data consists of a table for every ride taken in each one of the year's months. Its variables are ride id, bike type, start time, end time, start station, end station, start location, end location, and tipe of client (member or casual). 
+The data consists of a table for every ride taken in each one of the year's months. Its variables are ride id, bike type, start time, end time, start station, end station, start location, end location, and type of client (member or casual). 
 
 ## Process
 
-The data of all months was combined in order to paint the picture for the whole year. All of the data merging and analysis was done with BigQuery since this dataset is too large to be worked in spreadsheets.
+The data of all months was combined in order to paint the picture for the whole year. All of the data merging and analysis was done with BigQuery since this dataset is too large to be worked in spreadsheets. With that being said, all the data was manipulated through SQL queries, more specifically with BigQuery.
