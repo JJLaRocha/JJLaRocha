@@ -55,6 +55,9 @@ SQL Query: [Data Cleaning and Transformation](https://github.com/JJLaRocha/JJLaR
 
 ## Analyze and Share
 
+SQL Query: [Data Analysis](https://github.com/JJLaRocha/JJLaRocha/blob/JJLaRocha-patch-2/Data%20Analysis)
+Visualizations: The visualizations were made in Microsoft Excel after collecting the necessary data through the SQL queries. You can find them in [here](https://github.com/JJLaRocha/JJLaRocha/issues)
+
 ![image](https://private-user-images.githubusercontent.com/158205795/304031610-5f01a8eb-e64d-4f64-8cf2-1886381bdf2a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDc3MzY1MzYsIm5iZiI6MTcwNzczNjIzNiwicGF0aCI6Ii8xNTgyMDU3OTUvMzA0MDMxNjEwLTVmMDFhOGViLWU2NGQtNGY2NC04Y2YyLTE4ODYzODFiZGYyYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIxMlQxMTEwMzZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05MDM4NGFmNDUyM2ZmYzRlZTRhODY4NWE2NzYzMWVjZjFhN2ExOGRhZTU5MjRiZmQzODMxNWVkOTU5YzAwZTUzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.nF0MX3qHFy2J8aP2Qgn_L6u-7AryIPjtKdk-v1y8FJs)
 
 
