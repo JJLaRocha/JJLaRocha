@@ -48,10 +48,16 @@ The query used to combine all the 12 csv files was [this](https://github.com/JJL
 
 ### Data Cleaning
 
-SQL Query: 
+SQL Query: [Data Cleaning and Transformation](https://github.com/JJLaRocha/JJLaRocha/blob/JJLaRocha-patch-2/Data%20Cleaning%20and%20Transformation)
 
-1. All the rows of the primary key (ride_id) were deleted.
+1. All the rows where the primary key (ride_id) values were null were deleted.
 2. I added 3 columns to make the analysis easier and more objective: ride duration, month and day of the week.
+
+## Analyze and Share
+
+
+
+
 
 
 
