@@ -23,7 +23,7 @@ GROUP BY Weekday, member_casual
 ORDER BY Weekday
 
 
-– I wanted to see the main locations from where the casual riders start and end their trips more frequently to see if there is a pattern:
+– I wanted to see the 50 main locations from where the casual riders start and end their trips more frequently to see if there is a pattern:
 
 
 SELECT
@@ -33,6 +33,7 @@ FROM Months.ALL_MONTHS
 WHERE start_station_name IS NOT NULL AND member_casual = "casual"
 GROUP BY start_station_name
 ORDER BY Total_Rides DESC;
+LIMIT 50
 
 
 SELECT
@@ -42,6 +43,7 @@ FROM Months.ALL_MONTHS
 WHERE end_station_name IS NOT NULL AND member_casual = "casual"
 GROUP BY end_station_name
 ORDER BY Total_Rides DESC
+LIMIT 50
 
 
 – Wanted to see how member and casual use different tipes of bikes 
@@ -55,3 +57,4 @@ FROM
 Months.All_data_combined
 GROUP BY
 rideable_type, member_casual
+
