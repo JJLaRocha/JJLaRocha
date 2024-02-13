@@ -22,6 +22,17 @@ FROM Months.ALL_MONTHS
 GROUP BY Weekday, member_casual
 ORDER BY Weekday
 
+--Checking to see number or rides and ride duration average by hour of day:
+
+SELECT
+AVG (Hours) AS Average_duration,
+COUNT(*) AS Total_Rides,
+member_casual,
+HourDay
+FROM 
+  `my-project-gda-410913.Months.ALL_MONTHS`
+GROUP BY member_casual, HourDay
+ORDER BY HourDay
 
 – I wanted to see the 50 main locations from where the casual riders start and end their trips more frequently to see if there is a pattern:
 
@@ -54,7 +65,7 @@ rideable_type,
 member_casual,
 COUNT(ride_id) AS total_rides
 FROM
-Months.All_data_combined
+Months.ALL_MONTHS
 GROUP BY
 rideable_type, member_casual
 
