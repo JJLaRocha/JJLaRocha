@@ -99,6 +99,11 @@ It is also clear that both casual and member riders seem to prefer the spring an
 ![image](https://private-user-images.githubusercontent.com/158205795/304031610-5f01a8eb-e64d-4f64-8cf2-1886381bdf2a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDc4Mzk1ODUsIm5iZiI6MTcwNzgzOTI4NSwicGF0aCI6Ii8xNTgyMDU3OTUvMzA0MDMxNjEwLTVmMDFhOGViLWU2NGQtNGY2NC04Y2YyLTE4ODYzODFiZGYyYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIxM1QxNTQ4MDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01ZTljODE5ZjE4MGYxNDk3ZmQwYTJkYTQ2MzJlZGVlM2NlYWYxNDQ5MDY5ZGQ1MTY2ZmM2MGE5MDdhOTg3OWY5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.K_URaBuQDJKa_tLigiVOxuTrNz40mu4nyeHptOxO_38)
 
 
+In terms of location, as it is possible to see in the sequence above, the casual riders seem to prefer the riverside area of the city when they ride. The top 50 stations where more rides end are represented in the figure at the left (with the intire city of Chicago delimited with red) and these 50 stations represent only about 3% of the total stations in the dataset. Eventhough they only account for 3% of the stations, about 33% of rides end in these locations. This can be useful to reinforce the advertisement of the brand in this area, possibly through eventual partnerships with enterprises and touristic entities in the area, or through the realization of the Cyclistic company's events in order to reach out to casual riders directly, since we now have the where (riverside area of Chicago as a main focus) and the when (during the week mostly and weekends and throughout the year mainly during Spring as specially Summer). Eventhough there is no graphic representation in this presentation, the locations where casual riders usually start their trips overlap with the most popular ending trips locations, which reinforces the idea that this area is very important in terms of casual riders density.
+
+
+
+
 
 
 
