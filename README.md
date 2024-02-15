@@ -72,11 +72,11 @@ As it is clear, no significant correlation between subscription type and bicycle
 
 
 
-![image](https://private-user-images.githubusercontent.com/158205795/304424279-0ffd6a71-d57b-455e-b7f4-dd67572ad717.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDc5MzUzMDIsIm5iZiI6MTcwNzkzNTAwMiwicGF0aCI6Ii8xNTgyMDU3OTUvMzA0NDI0Mjc5LTBmZmQ2YTcxLWQ1N2ItNDU1ZS1iN2Y0LWRkNjc1NzJhZDcxNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIxNFQxODIzMjJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wM2I4NDcyYmZkZWIwMzNmNjEwYWUzMzJiMzI2MmViMmE1MjMxODEzYTA1NmFkOTlhMTM0MWE3ZGQ4YThjMGNiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ISIy2u4x1lxd_0WpxyjznGmYFoMFpXYXX77UETvN1lw)
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/JJLaRocha-patch-2/Images/Average%20duration%20week.png)
 
 
 
-![image](https://private-user-images.githubusercontent.com/158205795/304424396-fc91e188-a1be-4c38-8147-978e2052e406.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDc5MzUzMjEsIm5iZiI6MTcwNzkzNTAyMSwicGF0aCI6Ii8xNTgyMDU3OTUvMzA0NDI0Mzk2LWZjOTFlMTg4LWExYmUtNGMzOC04MTQ3LTk3OGUyMDUyZTQwNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIxNFQxODIzNDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jNzM0Yjk2OTg5YjQwODI1ZWViMDQwNjUxYTQ4ZDYwMjM4MTk5MGUyNmIwNjg3OTM5NzMxYWE1NjVjNzg0NWZhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.tfLML8VvdeLXnn1M1wkJsJYejW3q6igXJ-X2zlfVgLE)
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/JJLaRocha-patch-2/Images/Average%20Month.png)
 
 
 As it is possible to conclude based on the graphics above, the casual riders make longer rides on the spring/summer seasons. This is also true for members, eventhough the tendency there is not so obvious. In opposite to members, casual riders tend to ride longer at weekends.
@@ -84,11 +84,11 @@ As it is possible to conclude based on the graphics above, the casual riders mak
 
 ### Total Number of Rides
 
-![image](https://private-user-images.githubusercontent.com/158205795/304424588-8e0fd403-b6b5-4683-a170-63b86d064044.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDc5MzUzNjQsIm5iZiI6MTcwNzkzNTA2NCwicGF0aCI6Ii8xNTgyMDU3OTUvMzA0NDI0NTg4LThlMGZkNDAzLWI2YjUtNDY4My1hMTcwLTYzYjg2ZDA2NDA0NC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIxNFQxODI0MjRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wMmZjMTMzY2FmZjc3MDEzNDBjNTFjNDgyZTY1YjkzMmUwNmEzMGQ2ODJmNjRkZjA1NDUzMTAxN2NhYTc4NjlhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.AY7-U0_AWJOLVOvrNzZLXX4zUVlaQTuPsITY7bOj-3c)
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/JJLaRocha-patch-2/Images/Weekday.png)
 
 
 
-![image](https://private-user-images.githubusercontent.com/158205795/304424685-501d0be9-b349-4933-a749-80161814cde6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDc5MzUzODIsIm5iZiI6MTcwNzkzNTA4MiwicGF0aCI6Ii8xNTgyMDU3OTUvMzA0NDI0Njg1LTUwMWQwYmU5LWIzNDktNDkzMy1hNzQ5LTgwMTYxODE0Y2RlNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIxNFQxODI0NDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04OWY1ODRjYTZmNTk3OGE3N2M3ZjFhNDkwYTRlOWI4NDE5NmUyNTNmYjY1NWFmYzA3OTU1M2RiMjliN2UxNzg0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.kaeJkaXEEfRtTocypdqN4hD0EgaZOqbNGKc_fvSxCg0)
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/JJLaRocha-patch-2/Images/Rides%20Month.png)
 
 It is also clear that both casual and member riders seem to prefer the spring and summer seasons when regarding the total number of rides for each month. However, concerning the weekdays, the tendency of casual riders is to have more rides in the weekend while members seem to prefer the work-week.
 
@@ -96,10 +96,16 @@ It is also clear that both casual and member riders seem to prefer the spring an
 
 
 
-![image](https://private-user-images.githubusercontent.com/158205795/304031610-5f01a8eb-e64d-4f64-8cf2-1886381bdf2a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDc5MzUwODEsIm5iZiI6MTcwNzkzNDc4MSwicGF0aCI6Ii8xNTgyMDU3OTUvMzA0MDMxNjEwLTVmMDFhOGViLWU2NGQtNGY2NC04Y2YyLTE4ODYzODFiZGYyYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIxNFQxODE5NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jNWQwY2E1ZTA1ZWU3MmMxZWYzNDQ1OWMyOTFmNzQzYzgyOGUxYjhjYWFlM2E4MDRmNGIwZWUzOWEyZGFhN2U3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.J-4Kl42IYTDkCCcNgww50ymAoYQTCalslsbtWss2fL8)
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/JJLaRocha-patch-2/Images/end_stations.png)
 
 
 In terms of location, as it is possible to see in the sequence above, the casual riders seem to prefer the riverside area of the city when they ride. The top 50 stations where more rides end are represented in the figure at the left (with the intire city of Chicago delimited with red) and these 50 stations represent only about 3% of the total stations in the dataset. Eventhough they only account for 3% of the stations, about 33% of rides end in these locations. This can be useful to reinforce the advertisement of the brand in this area, possibly through eventual partnerships with enterprises and touristic entities in the area, or through the realization of the Cyclistic company's events in order to reach out to casual riders directly, since we now have the where (riverside area of Chicago as a main focus) and the when (during the week mostly and weekends and throughout the year mainly during Spring as specially Summer). Eventhough there is no graphic representation in this presentation, the locations where casual riders usually start their trips overlap with the most popular ending trips locations, which reinforces the idea that this area is very important in terms of casual riders density.
+
+### Analysis Summary
+
+|Casual|Member|
+|------|------|
+
 
 
 
