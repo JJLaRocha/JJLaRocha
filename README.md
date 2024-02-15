@@ -56,7 +56,7 @@ SQL Query: [Data Cleaning and Transformation](https://github.com/JJLaRocha/JJLaR
 ## Analyze and Share
 
 SQL Query: [Data Analysis](https://github.com/JJLaRocha/JJLaRocha/blob/JJLaRocha-patch-2/Data%20Analysis)
-Visualizations: The visualizations were made in Microsoft Excel and Tableau after collecting the necessary data through the SQL queries. You can find them in [here].(https://github.com/JJLaRocha/JJLaRocha/issues)
+Visualizations: The visualizations were made in Microsoft Excel and Tableau after collecting the necessary data through the SQL queries. You can find them in [here]([https://github.com/JJLaRocha/JJLaRocha/issues](https://github.com/JJLaRocha/JJLaRocha/tree/JJLaRocha-patch-2)).
 
 
 ### Bike Types
@@ -71,6 +71,8 @@ As it is clear, no significant correlation between subscription type and bicycle
 ### Ride Duration
 
 
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/JJLaRocha-patch-2/Images/Average%20Hour.png)
+
 
 ![image](https://github.com/JJLaRocha/JJLaRocha/blob/JJLaRocha-patch-2/Images/Average%20duration%20week.png)
 
@@ -83,6 +85,9 @@ As it is possible to conclude based on the graphics above, the casual riders mak
 
 
 ### Total Number of Rides
+
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/JJLaRocha-patch-2/Images/Rides%20Hour.png)
+
 
 ![image](https://github.com/JJLaRocha/JJLaRocha/blob/JJLaRocha-patch-2/Images/Weekday.png)
 
