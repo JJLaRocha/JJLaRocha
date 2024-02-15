@@ -111,6 +111,10 @@ In terms of location, as it is possible to see in the sequence above, the casual
 
 |Casual|Member|
 |------|------|
+|Tend to ride more during the weekend | Ride more often during the week days|
+|Have a ride duration average higher than members but less total rides | More total rides but shorter rides than casual riders|
+
+
 
 
 
