@@ -62,7 +62,7 @@ Visualizations: The visualizations were made in Microsoft Excel and Tableau afte
 ### Bike Types
 
 
-![image](https://private-user-images.githubusercontent.com/158205795/304415395-b1fedfd0-99c2-48ec-9e53-750b3f3f2aa3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDc5MzUyNDQsIm5iZiI6MTcwNzkzNDk0NCwicGF0aCI6Ii8xNTgyMDU3OTUvMzA0NDE1Mzk1LWIxZmVkZmQwLTk5YzItNDhlYy05ZTUzLTc1MGIzZjNmMmFhMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIxNFQxODIyMjRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04ZjkwOTczYTdiZjhhMjVhYWQ4ZWU5ZWFkOGViZjA2NDU3ZDRhMjdmNTJiYjRiNTM5ZmJkNWI1OTUwODQ0OWNiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.P4tO5vv2yK1HtWbxZ-VREqYNFL1sVoJiT6v3D6PkuBk)
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/JJLaRocha-patch-2/Images/Bike%20Types.png)
 
 
 As it is clear, no significant correlation between subscription type and bicycle types if you keep the project goals in mind, since for classic and electric bikes the proportion is identical for both member and casual riders, and the docked bikes, eventhough only used by casual riders, represent a residual value.
