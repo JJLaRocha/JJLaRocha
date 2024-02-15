@@ -55,7 +55,8 @@ SQL Query: [Data Cleaning and Transformation](https://github.com/JJLaRocha/JJLaR
 
 ## Analyze and Share
 
-SQL Query: [Data Analysis](https://github.com/JJLaRocha/JJLaRocha/blob/JJLaRocha-patch-2/Data%20Analysis).
+SQL Query: [Data Analysis](https://github.com/JJLaRocha/JJLaRocha/blob/JJLaRocha-patch-2/Data%20Analysis)
+
 Visualizations: The visualizations were made in Microsoft Excel and Tableau after collecting the necessary data through the SQL queries. You can find them in [here](https://github.com/JJLaRocha/JJLaRocha/tree/JJLaRocha-patch-2/Images).
 
 
