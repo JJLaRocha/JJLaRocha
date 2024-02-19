@@ -113,6 +113,15 @@ In terms of location, as it is possible to see in the sequence above, the casual
 |------|------|
 |Tend to ride more during the weekend | Ride more often during the week days|
 |Have a ride duration average higher than members but less total rides | More total rides but shorter rides than casual riders|
+|Tend to start and end their trips on the locations marked above | Was not subjected to analysis regarding locations|
+
+## Act & Recommendations
+
+After identifying the differences between casual and member riders in the possible ways, to reach the determined goals my recommendations are: 
+
+1. Make marketing campaign and physical Cyclistic company events in the riverside area of Chicago, during the weekend and especially during the Summer, to reach the maximum number of casual riders. Best hours would be in the morning and early in the afternoon.
+2. There might be the temptation to create a special subscription for the Summer season to reach potential subscribers, since casual riders ride more often during this season. However, that is also the case for the riders that are already annually subscribed. Since by doing so the company would risk losing anually subscribers to seasonal subscribers, I suggest doing a special campaign to attract people to subscribe during this season, perhaps by lowering the price a bit for people who subscribe during this season, to maximize the results.
+3. This analysis delivers the "When?" and "Where?" to reach casual riders, but not really the "How?" and "Why?", i.e, it doesn't clearly make a connection and answer to what would make casual riders be willing to subscribe anually to Cyclistic services. With that being said, I would run a customer service to try to answer this question, which would help the company to aim more accurately to its goals!
 
 
 
