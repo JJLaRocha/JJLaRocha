@@ -6,5 +6,7 @@ I only wanted to analyze the following jobs: Data Analyst, Data Engineer and Dat
 
 I forgot to transform my Excel table in the Industry column to leave only significant industries (count>10) and to change the names (ex: “Retail” was “Other: Please Specify(Retail)”. So I added a Filter in Tableau for Industry for count by Industry superior to 10 and created a calculated field to change the name into “Retail”. The code to that calculated field was:
 
-IF [Industry] = “Other: Please Specify(Retail)” THEN “Retail” ELSE [Industry] END
+**IF [Industry] = “Other: Please Specify(Retail)” THEN “Retail” ELSE [Industry] END**
+
+I wanted to make my analysis with Tableau Public but, since the data I wanted to analyze wasn't all in the same dataset, I had to import the data from one dataset to the other. If not, I would not be able to link the two datasets in Tableau, since I did not have a common column for those datasets.
 
