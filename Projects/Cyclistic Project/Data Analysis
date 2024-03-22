@@ -1,0 +1,71 @@
+– I wanted to see how was the variability of both member and casual riders throughout the year: 
+
+SELECT
+Month,
+member_casual,
+SUM (Hours) AS duration,
+COUNT(ride_id) AS Total_rides,
+AVG (duration) AS Average_duration
+FROM Months.ALL
+GROUP BY member_casual, Month
+
+
+–Checking to see at which days of the week casual riders use more frequently and where are the differences to what members do:
+
+
+SELECT
+AVG(duration) AS Average_Duration
+COUNT(ride_id),
+Weekday,
+member_casual
+FROM Months.ALL_MONTHS
+GROUP BY Weekday, member_casual
+ORDER BY Weekday
+
+--Checking to see number or rides and ride duration average by hour of day:
+
+SELECT
+AVG (Hours) AS Average_duration,
+COUNT(*) AS Total_Rides,
+member_casual,
+HourDay
+FROM 
+  `my-project-gda-410913.Months.ALL_MONTHS`
+GROUP BY member_casual, HourDay
+ORDER BY HourDay
+
+– I wanted to see the 50 main locations from where the casual riders start and end their trips more frequently to see if there is a pattern:
+
+
+SELECT
+COUNT(ride_id) AS Total_Rides,
+start_station_name
+FROM Months.ALL_MONTHS
+WHERE start_station_name IS NOT NULL AND member_casual = "casual"
+GROUP BY start_station_name
+ORDER BY Total_Rides DESC;
+LIMIT 50
+
+
+SELECT
+COUNT(ride_id) AS Total_Rides,
+end_station_name
+FROM Months.ALL_MONTHS
+WHERE end_station_name IS NOT NULL AND member_casual = "casual"
+GROUP BY end_station_name
+ORDER BY Total_Rides DESC
+LIMIT 50
+
+
+– Wanted to see how member and casual use different tipes of bikes 
+
+
+SELECT
+rideable_type,
+member_casual,
+COUNT(ride_id) AS total_rides
+FROM
+Months.ALL_MONTHS
+GROUP BY
+rideable_type, member_casual
+
