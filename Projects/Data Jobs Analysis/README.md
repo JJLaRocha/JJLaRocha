@@ -22,6 +22,8 @@ Like previously stated, my goal with this project was to compare different Data 
 ## Prepare Phase
 
 ### Data Source
-In this project I used data from two different datasets. Both of them are open source and were downloaded from [Kaggle](www.kaggle.com)
+In this project I used data from two different datasets. Both of them are open source and were downloaded from [Kaggle](https://www.kaggle.com/). The Datasets used were the [Data Science Jobs Analysis](https://www.kaggle.com/datasets/niyalthakkar/data-science-jobs-analysis) and the [Data Analytics Job Survey](https://www.kaggle.com/datasets/yaruunknownu/job-survey).
+
+### Data Cleaning and Transformation
 
 
