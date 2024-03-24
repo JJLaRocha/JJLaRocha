@@ -7,4 +7,21 @@ Since there are a lot of options in this area, especially if you consider that y
 
 With that being said, that is one of the criteria I chose to analyze in this project. Others, like salary, job availability and level of satisfaction of people working in the Data Analytics field in different parameters were also evaluated throughout this project! Remember that this is project of my own initiative and so all this criteria was based in my own criteria and in the topics that I wanted to run through. So, if you're also keen on learning more about this area, stick around! I will gladly share with you what I have found.
 
+## Ask Phase
+Like previously stated, my goal with this project was to compare different Data jobs according to my own criteria. In this case, the question I wanted to answer with this project were:
+
+1. What is the average salary for each one of these jobs
+2. In which countries do these jobs have more openings
+3. For those countries, what is the percentage of employees working remotely
+4. What industries have more openings for data jobs
+5. What is the average salary in those industries
+6. What is the most used programming language in these jobs
+7. What percentage of these people swtiched careers into data
+8. How difficult was for them to kickstart their career
+
+## Prepare Phase
+
+### Data Source
+In this project I used data from two different datasets. Both of them are open source and were downloaded from [Kaggle](Kaggle.com)
+
 
