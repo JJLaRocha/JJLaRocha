@@ -22,6 +22,6 @@ Like previously stated, my goal with this project was to compare different Data 
 ## Prepare Phase
 
 ### Data Source
-In this project I used data from two different datasets. Both of them are open source and were downloaded from [Kaggle](Kaggle.com)
+In this project I used data from two different datasets. Both of them are open source and were downloaded from [Kaggle](www.kaggle.com)
 
 
