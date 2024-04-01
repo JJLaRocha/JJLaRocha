@@ -24,11 +24,16 @@ Like previously stated, my goal with this project was to compare different Data 
 ### Data Source
 In this project I used data from two different datasets. Both of them are open source and were downloaded from [Kaggle](https://www.kaggle.com/). The Datasets used were the [Data Science Jobs Analysis](https://www.kaggle.com/datasets/niyalthakkar/data-science-jobs-analysis) and the [Data Analytics Job Survey](https://www.kaggle.com/datasets/yaruunknownu/job-survey).
 
+## Process Phase
+
 ### Data Cleaning and Transformation
 Data cleaning and transformation was pretty simple in this project. You can find most of steps [here](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Data%20Jobs%20Analysis/Data%20Cleaning%20and%20Transformation.md).
 
 ### Data Combining
 Like previously stated, I used two different datasets. Since I wanted to present my analysis with a single dashboard, I had to import one spreadsheet into the other, which basically resumes the step of data combining in this project. Importing a spreadsheet is a very standard procedure in spreadsheets. The main thing I had to be cautious about was not to mix columns from both datasets, since they are not related, only complementary.
+
+## Analysis Phase
+Most of the analysis for this project was made with Tableau. Like stated in the introduction, my main goal was to compare the three Data Analytics jobs I was most curious about: Data Analyst, Data Scientist and Data Engineer. The criteria am I using was also defined earlier, so let's jump into it!
 
 
 
