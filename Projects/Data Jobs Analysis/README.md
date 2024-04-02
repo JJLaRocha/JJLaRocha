@@ -35,5 +35,11 @@ Like previously stated, I used two different datasets. Since I wanted to present
 ## Analysis Phase
 Most of the analysis for this project was made with Tableau. Like stated in the introduction, my main goal was to compare the three Data Analytics jobs I was most curious about: Data Analyst, Data Scientist and Data Engineer. The criteria am I using was also defined earlier, so let's jump into it!
 
+### Analysis by Country
+
+#### Job Availability and Remote Ratio
+
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Data%20Jobs%20Analysis/Images/Jobs%20Availability%20%26%20Remote%20Ratio.png)
+
 
 
