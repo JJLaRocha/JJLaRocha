@@ -37,19 +37,27 @@ Most of the analysis for this project was made with Tableau. Like stated in the 
 
 To each topic of the selected criteria, I will upload the tableau visualizations as .pnf file. I added several filters to the Tableau Sheets and final Dashboard, that you can check in this [link](https://public.tableau.com/app/profile/joao.rocha3459/viz/DataJobsCountry/Painel2?publish=yes), where you can actually interact with those filters, which you won't be able to do through this markdown.
 
-### Analysis by Country
+### Job Availability
 
-#### Job Availability and Remote Ratio
+#### By Country (with Remote Ratio)
 
 ![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Data%20Jobs%20Analysis/Images/Jobs%20Availability%20%26%20Remote%20Ratio.png)
 
-The datasets I found on Kaggle did not have enough data for Data Jobs in my country (Portugal), so my main objective in this geographical analysis is to check, for other countries, which have more job vacancies and what is their remote ratio. This, of course, is dependent on the people who answered the surveys that constitute the datasets. However, this serves well to at least have an idea of the remote ratio for data jobs in each country.
+The datasets I found on Kaggle did not have enough data for Data Jobs in my country (Portugal), so my main objective in this geographical analysis is to check, for other countries, which have more job vacancies and what is their remote ratio. This, of course, is dependent on the people who answered the surveys that constitute the datasets. However, this serves well to at least have an idea of the remote ratio for data jobs in each country. To  make this analysis a little bit more significant from the statistical point of view, I narrowed it to the countries that have more than ten representatives in the survey. You can actually see that filter in the picture above.
 
 This remote ratio is a calculated field I have added to my dataset on Tableau. The formula I used for it was:
 
 SUM(IF [Remote Ratio] = 'remore' THEN 1 ELSE 0 END) / COUNT([Remote Ratio]) .
 
-It essentially divides the remote jobs by all the jobs, and then assigns it to each country in this case. When you go across the map in the dashboard you can check the number of jobs and remote ratio by putting your pointer on the country you want to analyze. Give it a try!
+It essentially divides the remote jobs by all the jobs, and then assigns it to each country in this case. When you go across the map in the dashboard you can check the number of jobs and remote ratio by putting your pointer on the country you want to analyze. Give it a try! By going over the United States in America in the Dashboard, you can check that from the 287 total jobs, 218 are on a remote basis, which makes it an interesting country for me to search for job vacancies.
+
+#### By Industry
+
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Data%20Jobs%20Analysis/Images/Jobs%20by%20Industry.png)
+
+I also wanted to check the industries where there might be more vacancies for data jobs. As you can see, the Tech, Healthcare and Finance dominate in this field, which can help me narrow down my search even more.
+
+
 
 
 
