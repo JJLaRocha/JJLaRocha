@@ -45,7 +45,11 @@ To each topic of the selected criteria, I will upload the tableau visualizations
 
 The datasets I found on Kaggle did not have enough data for Data Jobs in my country (Portugal), so my main objective in this geographical analysis is to check, for other countries, which have more job vacancies and what is their remote ratio. This, of course, is dependent on the people who answered the surveys that constitute the datasets. However, this serves well to at least have an idea of the remote ratio for data jobs in each country.
 
-This remote ratio is a calculated field I have added to my dataset on Tableau. The formula I used for it was SUM(IF [Remote Ratio] = 'remore' THEN 1 ELSE 0 END) / COUNT([Remote Ratio]), which essentially divides the remote jobs by all the jobs, and then assigns it to each country in this case. When you go across the map in the dashboard you can check the number of jobs and remote ratio by putting your pointer on the country you want to analyze. Give it a try!
+This remote ratio is a calculated field I have added to my dataset on Tableau. The formula I used for it was:
+
+SUM(IF [Remote Ratio] = 'remore' THEN 1 ELSE 0 END) / COUNT([Remote Ratio]) .
+
+It essentially divides the remote jobs by all the jobs, and then assigns it to each country in this case. When you go across the map in the dashboard you can check the number of jobs and remote ratio by putting your pointer on the country you want to analyze. Give it a try!
 
 
 
