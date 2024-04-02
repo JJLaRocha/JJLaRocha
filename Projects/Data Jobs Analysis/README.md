@@ -35,11 +35,17 @@ Like previously stated, I used two different datasets. Since I wanted to present
 ## Analysis Phase
 Most of the analysis for this project was made with Tableau. Like stated in the introduction, my main goal was to compare the three Data Analytics jobs I was most curious about: Data Analyst, Data Scientist and Data Engineer. The criteria am I using was also defined earlier, so let's jump into it!
 
+To each topic of the selected criteria, I will upload the tableau visualizations as .pnf file. I added several filters to the Tableau Sheets and final Dashboard, that you can check in this [link](https://public.tableau.com/app/profile/joao.rocha3459/viz/DataJobsCountry/Painel2?publish=yes), where you can actually interact with those filters, which you won't be able to do through this markdown.
+
 ### Analysis by Country
 
 #### Job Availability and Remote Ratio
 
 ![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Data%20Jobs%20Analysis/Images/Jobs%20Availability%20%26%20Remote%20Ratio.png)
+
+The datasets I found on Kaggle did not have enough data for Data Jobs in my country (Portugal), so my main objective in this geographical analysis is to check, for other countries, which have more job vacancies and what is their remote ratio. This, of course, is dependent on the people who answered the surveys that constitute the datasets. However, this serves well to at least have an idea of the remote ratio for data jobs in each country.
+
+This remote ratio is a calculated field I have added to my dataset on Tableau. The formula I used for it was SUM(IF [Remote Ratio] = 'remore' THEN 1 ELSE 0 END) / COUNT([Remote Ratio]), which essentially divides the remote jobs by all the jobs, and then assigns it to each country in this case. When you go across the map in the dashboard you can check the number of jobs and remote ratio by putting your pointer on the country you want to analyze. Give it a try!
 
 
 
