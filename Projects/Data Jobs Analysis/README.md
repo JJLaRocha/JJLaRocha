@@ -55,7 +55,19 @@ It essentially divides the remote jobs by all the jobs, and then assigns it to e
 
 ![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Data%20Jobs%20Analysis/Images/Jobs%20by%20Industry.png)
 
-I also wanted to check the industries where there might be more vacancies for data jobs. As you can see, the Tech, Healthcare and Finance dominate in this field, which can help me narrow down my search even more.
+I also wanted to check the industries where there might be more vacancies for data jobs. As you can see, the Tech, Healthcare and Finance dominate in this field, which can help me narrow down my search even more when I am looking for jobs in this area. I have also added a filter to show only results for relevant industries, in this case for industries that in the dataset had more than ten representatives.
+
+### Salary
+
+#### By Country
+
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Data%20Jobs%20Analysis/Images/Salary%20by%20Country.png)
+
+Salary is of course an important aspect about a job, so I could not make an analysis on data jobs without investigating this topic. Since I already had limited my country list to more than 12 representatives in the dataset I used, the salaries will be restricted to these previously filtered countries. As it is possible to see, in addition to being the most represented country regarding job availibility, the USA is also the country where the salaries for data workers are higher!
+
+#### By Industry
+
+
 
 
 
