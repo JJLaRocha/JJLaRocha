@@ -49,7 +49,7 @@ This remote ratio is a calculated field I have added to my dataset on Tableau. T
 
 SUM(IF [Remote Ratio] = 'remore' THEN 1 ELSE 0 END) / COUNT([Remote Ratio]) .
 
-It essentially divides the remote jobs by all the jobs, and then assigns it to each country in this case. When you go across the map in the dashboard you can check the number of jobs and remote ratio by putting your pointer on the country you want to analyze. Give it a try! By going over the United States in America in the Dashboard, you can check that from the 287 total jobs, 218 are on a remote basis, which makes it an interesting country for me to search for job vacancies.
+It essentially divides the remote jobs by all the jobs, and then assigns it to each country in this case. When you go across the map in the dashboard you can check the number of jobs and remote ratio by putting your pointer on the country you want to analyze. Give it a try! By going over the United States in America in the Dashboard, you can check that from the 287 total jobs, 218 are on a remote basis, which makes it an interesting country for me to search for job vacancies. You can also use the filter to search by level of experience.
 
 #### By Industry
 
