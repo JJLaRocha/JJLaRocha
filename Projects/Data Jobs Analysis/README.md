@@ -82,11 +82,25 @@ Like I said previously in the introduction of this project, I don't have a backg
 
 ![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Data%20Jobs%20Analysis/Images/Difficulty%20Start.png)
 
-The image above is meant to ilustrate the level of difficulty to start a career for each one of the jobs. In general, I think it is pretty much well-rounded for Analysts, Engineers and Scientists.
+
+The image above is meant to ilustrate the level of difficulty to start a career for each one of the jobs. In general, I think it is pretty much well-rounded for Analysts, Engineers and Scientists, with people finding it Easy or Very Easy to start a career averaging from 24 to 29% throughout all of the three jobs
+
 
 ![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Data%20Jobs%20Analysis/Images/difficulty%20switch.png)
 
+
 However, I decided to add a diferent feature to this graphic that won't be part of the final dashboard, but that is useful for my analysis: when you mix this data with the data of people switching or not switching careers, it is quite visible that people that switched careers for Data Engineering find it less easy to start a career than those who didn't, which can also be said for Data Scientists. In general, Data Analysts seems to be a more friendly role for people who switch careers, eventhough those who did switch might have more difficulty starting, that difference doesn't seem to be very significative.
+
+
+### Favorite Programming Language
+
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Data%20Jobs%20Analysis/Images/Programming%20Language.png)
+
+So far, in this journey of gaining the skills necessary to successfully transition into the area of Data Analytics, I have been exposed to a few different tools: Spreadsheets, SQL, R programming and Tableau as the preferred tool for data visualization. Since this is a path that I want to continue walking, I wanted to know what are the most commonly used tools for these jobs. For all of them, Python was the most used, especially for Data Scientists, being that 80% of those surveyed claim it as their most used tool.
+
+### Level of Happiness
+
+
 
 
 
