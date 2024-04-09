@@ -41,7 +41,7 @@ To each topic of the selected criteria, I will upload the tableau visualizations
 
 #### By Country (with Remote Ratio)
 
-![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Data%20Jobs%20Analysis/Images/Jobs%20Availability%20%26%20Remote%20Ratio.png)
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Data%20Jobs%20Analysis/Images/jobs%20availability.png)
 
 The datasets I found on Kaggle did not have enough data for Data Jobs in my country (Portugal), so my main objective in this geographical analysis is to check, for other countries, which have more job vacancies and what is their remote ratio. This, of course, is dependent on the people who answered the surveys that constitute the datasets. However, this serves well to at least have an idea of the remote ratio for data jobs in each country. To  make this analysis a little bit more significant from the statistical point of view, I narrowed it to the countries that have more than ten representatives in the survey. You can actually see that filter in the picture above.
 
