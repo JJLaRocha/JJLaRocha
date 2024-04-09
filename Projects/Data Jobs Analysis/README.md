@@ -62,10 +62,23 @@ I also wanted to check the industries where there might be more vacancies for da
 #### By Country
 
 ![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Data%20Jobs%20Analysis/Images/Salary%20Country.png)
+
 Salary is of course an important aspect about a job, so I could not make an analysis on data jobs without investigating this topic. Since I already had limited my country list to more than 12 representatives in the dataset I used, the salaries will be restricted to these previously filtered countries. As it is possible to see, in addition to being the most represented country regarding job availibility, the USA is also the country where the salaries for data workers are higher!
 There is also a filter in the dashboard to select by country, being that the countries available for being picked are the ones who meet the criteria of having more than ten people represented in the dataset, similarly to the job availability analysis.
 
 #### By Industry
+
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Data%20Jobs%20Analysis/Images/Salary%20by%20Industry.png)
+
+The same was made to analyze the salary by the industries that were previously selected by the criteria of, again, being represented in the dataset by more than ten people. However, in this case the information is not as conclusive, since in this dataset there are no information about the level of experience of the individuals that answered the survey, a factor that, obviously, skews the conclusions: as an example, if most of the people that answered the survey were entry level, it obviously reflects on the results as having more people at lower levels of salary. Since we don't have access to that information, we can just use this visualization to get a small grasp of what the salaries are by industry.
+
+### Ratio of People that Switched Careers
+
+
+
+
+
+
 
 
 
