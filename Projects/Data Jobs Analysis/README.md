@@ -3,7 +3,7 @@
 ## Introduction and Context
 In this project I will present the analysis I've made to compare a few jobs in the data area. As an Agricultural Engineer who recently started to enter the field of Data Analytics, there were some questions that I would like to answer for my own knowledge, hence this project! As a person quite unaware of the details and conditions of Data Jobs and, since I took the time cultivate myself a bit in that area, I would now like to know a bit more about it!
 
-Since there are a lot of options in this area, especially if you consider that you can learn online most of the skills that are necessary to thrive in it, I've decided to do it also with the possibility of help me navigate in it with a bit more certainty, particularly learning about what people already working in the area consider to be the most important tools you must have to succeed in it.
+Since there are a lot of options in this area, especially if you consider that you can learn online many of the skills necessary to thrive in it, I've decided to do it also with the possibility of help me navigate in it with a bit more certainty, particularly learning about what people already working in the area consider to be the most important tools you must have to succeed in it. With that knowledge, I can guide myself and learn those skills.
 
 With that being said, that is one of the criteria I chose to analyze in this project. Others, like salary, job availability and level of satisfaction of people working in the Data Analytics field in different parameters were also evaluated throughout this project! Remember that this is project of my own initiative and so all this criteria was based in my own criteria and in the topics that I wanted to run through. So, if you're also keen on learning more about this area, stick around! I will gladly share with you what I have found.
 
@@ -107,8 +107,13 @@ The image above shows the level of happiness regarding several different criteri
 
 ## Conclusions and Action
 
+When introducing this project earlier, I tried to be the most clear as possible in defining my objectives. Concretely, I wanted to learn more about the Data Analytics job market to find what the best. After this project I have much more clarified on those aspects. The Data Science field seems to be an area in which the conditions are better, not only in terms of salary, which is included, but we've also seen in  the job survey and respective analysis that, in comparison with the other data roles, Data Scientists are more satisfied in all work-related areas surveyed.
 
+I also learned that, almost unanimously, for all the roles involved, Python was the most relevant tool to have to succeed. Bearing that in mind, and also by being now more driven to the Data Science field as a result of my analysis, I have enrolled in a course that teaches Python for Data Science and Machine Learning! I didn't have any background in Python and after seeing the results, I thought it would be a good idea to learn to use it for Data Analytics.
 
+I leave you again with the final [Dashboard](https://public.tableau.com/app/profile/joao.rocha3459/viz/DataJobsCountry/Painel2?publish=yes), which I had fun making and had the oportunity to hone the Tableau knowledge I've acquired earlier. If you see it, I hope you can learn anything from it that is useful for you!
+
+Cheers
 
 
 
