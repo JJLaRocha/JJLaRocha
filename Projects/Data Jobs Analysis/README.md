@@ -84,7 +84,9 @@ Like I said previously in the introduction of this project, I don't have a backg
 
 The image above is meant to ilustrate the level of difficulty to start a career for each one of the jobs. In general, I think it is pretty much well-rounded for Analysts, Engineers and Scientists.
 
-![image]()
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Data%20Jobs%20Analysis/Images/difficulty%20switch.png)
+
+However, I decided to add a diferent feature to this graphic that won't be part of the final dashboard, but that is useful for my analysis: when you mix this data with the data of people switching or not switching careers, it is quite visible that people that switched careers for Data Engineering find it less easy to start a career than those who didn't, which can also be said for Data Scientists. In general, Data Analysts seems to be a more friendly role for people who switch careers, eventhough those who did switch might have more difficulty starting, that difference doesn't seem to be very significative.
 
 
 
