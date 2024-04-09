@@ -61,9 +61,9 @@ I also wanted to check the industries where there might be more vacancies for da
 
 #### By Country
 
-![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Data%20Jobs%20Analysis/Images/Salary%20by%20Country.png)
-
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Data%20Jobs%20Analysis/Images/Salary%20Country.png)
 Salary is of course an important aspect about a job, so I could not make an analysis on data jobs without investigating this topic. Since I already had limited my country list to more than 12 representatives in the dataset I used, the salaries will be restricted to these previously filtered countries. As it is possible to see, in addition to being the most represented country regarding job availibility, the USA is also the country where the salaries for data workers are higher!
+There is also a filter in the dashboard to select by country, being that the countries available for being picked are the ones who meet the criteria of having more than ten people represented in the dataset, similarly to the job availability analysis.
 
 #### By Industry
 
