@@ -74,7 +74,11 @@ The same was made to analyze the salary by the industries that were previously s
 
 ### Ratio of People that Switched Careers
 
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Data%20Jobs%20Analysis/Images/switch.png)
 
+Like I said previously in the introduction of this project, I don't have a background in the Data Analytics field. For that reason, it was important for me to see if that is a common thing. Luckilly, with this survey I was able to get a general view, which was very appealing for my point of view! The visualization might not be as obvious and easy to compare from the perspective of each one of the jobs, but I decided to make it like this to it is easier to analyze the big picture: There are more people who switched careers into data analytics that those whose background is originally that field. This tendency is more evident in Data Scientists, followed by Data Analysts and last by Data Engineers. But for all of the three jobs, there are more people who switched careers than those who didn't.
+
+### Difficulty Starting Career
 
 
 
