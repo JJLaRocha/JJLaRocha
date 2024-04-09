@@ -80,7 +80,11 @@ Like I said previously in the introduction of this project, I don't have a backg
 
 ### Difficulty Starting Career
 
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Data%20Jobs%20Analysis/Images/Difficulty%20Start.png)
 
+The image above is meant to ilustrate the level of difficulty to start a career for each one of the jobs. In general, I think it is pretty much well-rounded for Analysts, Engineers and Scientists.
+
+![image]()
 
 
 
