@@ -100,6 +100,15 @@ So far, in this journey of gaining the skills necessary to successfully transiti
 
 ### Level of Happiness
 
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Data%20Jobs%20Analysis/Images/Happiness%20by%20Job.png)
+
+
+The image above shows the level of happiness regarding several different criteria for all of the jobs, namely Coworkers, Learning new Things, Management, Salary, Upward Mobility and Work/Life Balance. I think this is very interesting intel from people that are already in these roles in their life, and so I wanted to include it in my analysis! In general, and in an easy fashion to conclude, the Data Scientist are happier than both Engineers and Analysts in all the topics covered.
+
+## Conclusions and Action
+
+
+
 
 
 
