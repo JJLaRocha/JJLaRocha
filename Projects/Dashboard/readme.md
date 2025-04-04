@@ -44,6 +44,8 @@ And here it is! Quite fast, right?? I think there is no need to go into detail o
 
 However this may be, there are other things that we can still do, some questions we might have by any chance and for that we can use a different tool of Power BI, DAX! Eventhough we already have created a column that compares our sales of current year with the objectives set, let’s create a variable that we can use to compare how sales are going according to what was initially set by the company by brand, by segment and anything else we want to, and just leave our dashboard as it is. To do that, we will create a new measure called “Objetivos” with the following formula:
 
+### DAX:
+
 Objetivos = 
 VAR TotalRealCY =
 CALCULATE(
@@ -65,6 +67,9 @@ Pretty much just creating two variables that sum our sales this year, the object
 ![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Dashboard/Images/2.png)
  
 Now we can simply use this to guide ourselves in terms of so far this year was not as expected at first, and we can apply this to different parameters such as the departments, the client, you name it! By creating different visuals or simply toggling the parameter you want to check instead of Brands. So let’s go ahead and create more of these metrics that are quite useful to analyze your business results! Let’s create one that allows to see the growth, in percentage, from our current year so far to last year at the same stage:
+
+### DAX:
+
 Crescimento NetSales % = 
 VAR NetSales25 =
     CALCULATE(
@@ -90,6 +95,9 @@ RETURN
 
 Like we can see, the growth by department, which will of course affect the overall results of the company, is actually negative, which is of course bad since we were aiming to obtain better results than last year, and not the other way around. So based on that, let’s try to predict how the rest of the year will be in terms of performance, based on the first 5 months that we already have.
 First of all, we have to keep in mind that there might be seasonality associated to the business, so let’s use the last year, since we have data to the whole year, to try to create a seasonality index:
+
+### DAX:
+
 IIndiceSazonalidade = 
 VAR TotalVendas2024 =
 CALCULATE(
@@ -117,6 +125,8 @@ Now based on this season index we can calculate a projection of net sales for al
 On the left you can see the projected net sales for each month based on the metric defined earlier and the comparison with the actual net sales so far. As you can see, there are some innacuricies when comparing the values, which might be explained by the seasonality index being calculated using only one year, that is clearly not so representative of how a fiscal year’s sales are distributed. 
 Now let’s do something different and create a new variable that categorizes clients. We already have something similar for products, but not for clients. So let’s go ahead and create a new measure:
 
+### DAX:
+
 TabelaClientes = 
 VAR TotalVendas2024 = CALCULATE(
     SUM(Vendas[NS]),
@@ -143,6 +153,7 @@ So basically what we did was calculating the average sales for the year FY24, wh
 
 However, there’s a problem with this approach: the fluctuation between sales of different customers was far too great (we have a client with sales going up to 12M, as well as clients with sales a lot lower, at 80k this year), which makes it so that the standard deviation of sales is actually a higher value than the average sales per client for that year, which means that no client would land in the “budget” category, since they’d have to register negative values for sales for that to happen. With that in mind, let’s make a few adjustments and tweak the formula  a bit, so just add this to the RETURN  clause, and, while we were at it we took the chance to create more layers for our categorization measure: 
 
+### DAX:
 
 RETURN SWITCH(
     TRUE(),
@@ -170,6 +181,10 @@ So let’s imagine this scenario: Our sales team contacted these clients and act
 
 To make this a more realistic scenario, let’s add the concepts of margins to our project. Let’s then create a margins column for our Vendas table and consider a GM of 50% for both Nestle and Coca Cola brands currently. Let’s say that for Coca Cola products we can’t go below a margin of 30% and nestlé 37%.
 And here it is! All we had to do was creating the variables that were missing like  the Gross Margin and Minimum Gross Margin for each product and also set all the remaining rules, that are explained in more detail in the Code document. We also created a parameter called Discount that changes the results. Our results are shown in % of change from what could have been the sales based on the criteria we set and the actual net sales:
+
+ ### DAX:
+
+ 
 
 ![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Dashboard/Images/10.png)
  
