@@ -71,6 +71,7 @@ Now we can simply use this to guide ourselves in terms of so far this year was n
 
 ### DAX:
 
+```
 Crescimento NetSales % = 
 VAR NetSales25 =
     CALCULATE(
@@ -90,6 +91,7 @@ RETURN
         (NetSales25-NetSales24)/NetSales24,
         BLANK()
     )
+```
 
 ![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Dashboard/Images/3.png)
  
@@ -99,6 +101,7 @@ First of all, we have to keep in mind that there might be seasonality associated
 
 ### DAX:
 
+```
 IIndiceSazonalidade = 
 VAR TotalVendas2024 =
 CALCULATE(
@@ -114,6 +117,7 @@ CALCULATE(
 VAR Season_Index =
 DIVIDE(VendasMes2024,TotalVendas2024)
 RETURN Season_Index
+```
 
 So basically just dividing each month by the total sum of sales from last year, and our seasonality index looks something like this:
 
@@ -128,6 +132,7 @@ Now let’s do something different and create a new variable that categorizes cl
 
 ### DAX:
 
+```
 TabelaClientes = 
 VAR TotalVendas2024 = CALCULATE(
     SUM(Vendas[NS]),
@@ -147,6 +152,7 @@ VAR DESVIO = STDEV.P(SomaCliente2024[Vendas])
 RETURN 
 IF(VendasPorCliente > DESVIO + Media2024, "Top",
 IF(TotalVendasPorCliente < Media2024 ,"Budget","Mid"))
+```
 
 So basically what we did was calculating the average sales for the year FY24, which consists of summing all the sales for this year (VAR TotalVendas2024) and divide it by the number of companies that made sales in that year (VAR TotalClientes). Then we create a table with the sum of net sales, because we cannot apply the standard deviation formula to a measure, we have to apply it to a table. The table is SomaCliente2024. Then the criteria is : if the sales of a cliente in that year was superior to Average Sales 2024 + Standard Deviation 2024, then it  is a “top” client. If it is less than Average – Standard Deviation, then is is Budget, else is “Mid”. Here’s a clip of the final result:
 
@@ -155,7 +161,7 @@ So basically what we did was calculating the average sales for the year FY24, wh
 However, there’s a problem with this approach: the fluctuation between sales of different customers was far too great (we have a client with sales going up to 12M, as well as clients with sales a lot lower, at 80k this year), which makes it so that the standard deviation of sales is actually a higher value than the average sales per client for that year, which means that no client would land in the “budget” category, since they’d have to register negative values for sales for that to happen. With that in mind, let’s make a few adjustments and tweak the formula  a bit, so just add this to the RETURN  clause, and, while we were at it we took the chance to create more layers for our categorization measure: 
 
 ### DAX:
-
+```
 RETURN SWITCH(
     TRUE(),
     VendasPorCliente >= Media + 1.5*DESVIO, "Premium",
@@ -164,6 +170,7 @@ RETURN SWITCH(
     VendasPorCliente >= Media - 0.5 * DESVIO, "Ramp Up",
     "Cliente Ocasional"
 )
+```
 
 ![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Dashboard/Images/7.png)
 
