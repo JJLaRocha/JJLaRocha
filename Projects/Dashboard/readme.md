@@ -59,6 +59,7 @@ CALCULATE(
     )
 RETURN
     TotalRealCY – ObjetivosSoFar
+    
 Pretty much just creating two variables that sum our sales this year, the objectives initially set and the subtract them! Only need to specify in the formula that the months we are looking at have got to have value less than 6, since we only have data for 5 months because the current year is not yet finished, however, the objectives were set to all year and so we need to make that specification. So let’s use this measure to look at different things that might pop up, like the Products:
 
 ![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Dashboard/Images/2.png)
