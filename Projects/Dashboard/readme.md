@@ -1,3 +1,7 @@
+# Power BI Sales Dashboard
+
+## Introduction
+
 In this project, my goal is to make a dashboard representing the sales of a retail company that has operations in Portugal! It has 5 different departments that feed certain districts in a specific manner. Our goal is to have a general view of the sales of the company, by product, by segment, by district and by department. This data is fictional and created by myself. 
 Our source table is the result of the merge of 4 different tables: the sales table, the products table, the department table and the customers table. The schema of the sales table is:
 -	Cliente: (the client that the invoice is related to);
