@@ -195,7 +195,8 @@ And here it is! All we had to do was creating the variables that were missing li
  ```
 Sales_What_If_Analysis = 
 VAR Produto = SELECTEDVALUE(Vendas[Brands.Personalizado])
-VAR Cliente = SELECTEDVALUE(Vendas[Clientes.Personalizado.1]) ** [Guarateeing that we can apply criteria to specific clients and products] **
+VAR Cliente = SELECTEDVALUE(Vendas[Clientes.Personalizado.1])  <div style="background-color: #FFEB3B; padding: 10px; border-radius: 5px; color: black;">
+    <strong>⚠️ Guarateeing that we can apply criteria to specific clients and products:</strong></div>
 var UnitPrice = [UnitPrice] ## Already defined in a different measure, basically SUM(NS)/SUM(VOLUME)
 VAR Volume2024 = CALCULATE(SUM(Vendas[Volume.Volume]),Vendas[Mês] IN {"JAN","FEV","OUT","NOV","DEZ"},Vendas[Ano]="FY24",ALLEXCEPT(Vendas,Vendas[Brands.Personalizado],Vendas[Clientes.Personalizado.1]))
 VAR Volume2025 = CALCULATE(SUM(Vendas[Volume.Volume]),Vendas[Ano]="YTD_25",ALLEXCEPT(Vendas,Vendas[Brands.Personalizado],Vendas[Clientes.Personalizado.1]))
@@ -258,8 +259,6 @@ And that’s it for this project! In my opinion these visualization tools are ve
 
 
 
-
-   <div style="background-color: #FFEB3B; padding: 10px; border-radius: 5px; color: black;"><strong>⚠️ Nota Importante:</strong><br>Este código foi desenvolvido para [explicar o propósito]. Ao usá-lo, tenha em mente que [limitações, versões ou outras observações importantes].</div>
 
 
 
