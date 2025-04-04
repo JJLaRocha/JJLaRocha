@@ -45,7 +45,7 @@ And here it is! Quite fast, right?? I think there is no need to go into detail o
 However this may be, there are other things that we can still do, some questions we might have by any chance and for that we can use a different tool of Power BI, DAX! Eventhough we already have created a column that compares our sales of current year with the objectives set, let’s create a variable that we can use to compare how sales are going according to what was initially set by the company by brand, by segment and anything else we want to, and just leave our dashboard as it is. To do that, we will create a new measure called “Objetivos” with the following formula:
 
 ### DAX:
-
+```
 Objetivos = 
 VAR TotalRealCY =
 CALCULATE(
@@ -61,6 +61,7 @@ CALCULATE(
     )
 RETURN
     TotalRealCY – ObjetivosSoFar
+```
     
 Pretty much just creating two variables that sum our sales this year, the objectives initially set and the subtract them! Only need to specify in the formula that the months we are looking at have got to have value less than 6, since we only have data for 5 months because the current year is not yet finished, however, the objectives were set to all year and so we need to make that specification. So let’s use this measure to look at different things that might pop up, like the Products:
 
