@@ -1,6 +1,6 @@
 # Power BI Sales Dashboard
 
-## Introduction
+## Introduction and Data Overview
 
 In this project, my goal is to make a dashboard representing the sales of a retail company that has operations in Portugal! It has 5 different departments that feed certain districts in a specific manner. Our goal is to have a general view of the sales of the company, by product, by segment, by district and by department. This data is fictional and created by myself. 
 Our source table is the result of the merge of 4 different tables: the sales table, the products table, the department table and the customers table. The schema of the sales table is:
@@ -21,6 +21,7 @@ Department Table Schema:
 -	Departamento (Departmant Name, which is basically the district where it is located);
 -	Distrito (The districts that that specific department makes sales to. No district has more that one department but each department feeds more than one district generally)
 
+## Data Transformation
 
 Since I’ll be doing this project with Power BI, basically I have two options to merge all the available data: either load all tables into Power BI and merged them based on the common columns, or work it with Power Query (inside or outside the Power BI desktop, since it has Power Query incorporated in it). 
 Since I need to make a few transformations in the data that will require the use of Power Query, like the unpivoting of the Months, like stated previously, I will be making all the operations with it and turn it into a single table with all the columns that we need.
