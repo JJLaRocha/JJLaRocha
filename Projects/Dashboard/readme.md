@@ -258,10 +258,9 @@ And that’s it for this project! In my opinion these visualization tools are ve
 
 
 
-<div style="background-color: #FFEB3B; padding: 10px; border-radius: 5px; color: black;">
+
     <strong>⚠️ Nota Importante:</strong><br>
     Este código foi desenvolvido para [explicar o propósito]. Ao usá-lo, tenha em mente que [limitações, versões ou outras observações importantes].
-</div>
 
 
 
