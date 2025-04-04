@@ -195,26 +195,30 @@ And here it is! All we had to do was creating the variables that were missing li
  ```
 Sales_What_If_Analysis = 
 VAR Produto = SELECTEDVALUE(Vendas[Brands.Personalizado])
-VAR Cliente = SELECTEDVALUE(Vendas[Clientes.Personalizado.1])  <div style="background-color: #FFEB3B; padding: 10px; border-radius: 5px; color: black;">
-    <strong>⚠️ Guarateeing that we can apply criteria to specific clients and products:</strong></div>
-var UnitPrice = [UnitPrice] ## Already defined in a different measure, basically SUM(NS)/SUM(VOLUME)
-VAR Volume2024 = CALCULATE(SUM(Vendas[Volume.Volume]),Vendas[Mês] IN {"JAN","FEV","OUT","NOV","DEZ"},Vendas[Ano]="FY24",ALLEXCEPT(Vendas,Vendas[Brands.Personalizado],Vendas[Clientes.Personalizado.1]))
+VAR Cliente = SELECTEDVALUE(Vendas[Clientes.Personalizado.1])  // ⚠️ Guarateeing that we can apply criteria to specific clients and products ⚠️ //
+var UnitPrice = [UnitPrice] // ⚠️ Already defined in a different measure, basically SUM(NS)/SUM(VOLUME)⚠️ // 
+VAR Volume2024 = CALCULATE(
+  SUM(Vendas[Volume.Volume]),
+  Vendas[Mês] IN {"JAN","FEV","OUT","NOV","DEZ"},
+  Vendas[Ano]="FY24",
+  ALLEXCEPT(Vendas,Vendas[Brands.Personalizado],Vendas[Clientes.Personalizado.1])
+) // ⚠️ Calculating the volumes for the only 5 months we have data for in the current year ⚠️ //  
 VAR Volume2025 = CALCULATE(SUM(Vendas[Volume.Volume]),Vendas[Ano]="YTD_25",ALLEXCEPT(Vendas,Vendas[Brands.Personalizado],Vendas[Clientes.Personalizado.1]))
 VAR VolumePerdido = Volume2024 - Volume2025
-VAR GM = 0.5
+VAR GM = 0.5 // ⚠️ Defining GM's, should be only for specific Brands but it does not interfere with anything really ⚠️ // 
 VAR GM_MIN = 
     SWITCH(
         Produto,
         "COCA COLA", 0.3,
         "Nestlé", 0.37,
         BLANK() 
-    )
+    ) // ⚠️ Defining Min GM for the brands in analysis⚠️ // 
 
 VAR Recovery_Conditions = 
 (Cliente ="CASA GUEDES - GUEDESPRES, LDA" && Produto IN {"Nestlé", "COCA COLA"}) ||
-(Cliente = "GARRAFEIRA NACIONAL, LDA" && Produto = "Nestlé")
-VAR Discount = SELECTEDVALUE('Parâmetro_Desconto'[Parâmetro_Desconto])
-VAR UnitCost = [UnitPrice] * 0.5
+(Cliente = "GARRAFEIRA NACIONAL, LDA" && Produto = "Nestlé") // ⚠️ Read the conditions we've established earlier above ⚠️ // 
+VAR Discount = SELECTEDVALUE('Parâmetro_Desconto'[Parâmetro_Desconto]) // ⚠️ Created a parameter called "Parametro_Desconto" with a slicer that defines magnitude of discount⚠️ // 
+VAR UnitCost = [UnitPrice] * GM
 VAR MarginWithDiscount = IF(
     Discount <> 0, 
     SWITCH(
@@ -245,7 +249,7 @@ VAR Sales_Recovery =
                 ) 
         ),
        NetSales2025
-    )
+    ) // ⚠️ Basically applying the rule: if discount = 0, sales are maintained; else, they vary proportionally to the discount, with total recuperation of sales from fy24 at 25% discount and adjusting prices, also minding the lower margins allowed⚠️ // 
 
 RETURN IFERROR(DIVIDE(Sales_Recovery - NetSales2025,NetSales2025,BLANK()),BLANK())
 ```
