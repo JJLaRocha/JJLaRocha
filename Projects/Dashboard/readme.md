@@ -192,7 +192,62 @@ And here it is! All we had to do was creating the variables that were missing li
 
  ### DAX:
 
- 
+ ```
+Sales_What_If_Analysis = 
+VAR Produto = SELECTEDVALUE(Vendas[Brands.Personalizado])
+VAR Cliente = SELECTEDVALUE(Vendas[Clientes.Personalizado.1]) // Guarateeing that we can apply criteria to specific clients and products
+var UnitPrice = [UnitPrice] // Already defined in a different measure, basically SUM(NS)/SUM(VOLUME)
+VAR Volume2024 = CALCULATE(SUM(Vendas[Volume.Volume]),Vendas[Mês] IN {"JAN","FEV","OUT","NOV","DEZ"},Vendas[Ano]="FY24",ALLEXCEPT(Vendas,Vendas[Brands.Personalizado],Vendas[Clientes.Personalizado.1]))
+VAR Volume2025 = CALCULATE(SUM(Vendas[Volume.Volume]),Vendas[Ano]="YTD_25",ALLEXCEPT(Vendas,Vendas[Brands.Personalizado],Vendas[Clientes.Personalizado.1]))
+VAR VolumePerdido = Volume2024 - Volume2025
+VAR GM = 0.5
+VAR GM_MIN = 
+    SWITCH(
+        Produto,
+        "COCA COLA", 0.3,
+        "Nestlé", 0.37,
+        BLANK() 
+    )
+
+VAR Recovery_Conditions = 
+(Cliente ="CASA GUEDES - GUEDESPRES, LDA" && Produto IN {"Nestlé", "COCA COLA"}) ||
+(Cliente = "GARRAFEIRA NACIONAL, LDA" && Produto = "Nestlé")
+VAR Discount = SELECTEDVALUE('Parâmetro_Desconto'[Parâmetro_Desconto])
+VAR UnitCost = [UnitPrice] * 0.5
+VAR MarginWithDiscount = IF(
+    Discount <> 0, 
+    SWITCH(
+        Produto,
+        "COCA COLA", DIVIDE(
+            [UnitPrice] * (1 - Discount) - UnitCost , [UnitPrice] * (1 - Discount),""),
+        "Nestlé", DIVIDE(
+            [UnitPrice] * (1 - Discount) - UnitCost , [UnitPrice] * (1 - Discount),"")
+    ),
+    GM
+)
+
+VAR NetSales2025 = CALCULATE(
+        SUM(Vendas[NS]),
+        Vendas[Ano] = "YTD_25",
+        ALLEXCEPT(Vendas,Vendas[Clientes.Personalizado.1],Vendas[Brands.Personalizado])
+)
+
+VAR Sales_Recovery = 
+    IF(
+        Discount <> 0, 
+        IF(
+            Recovery_Conditions,
+            IF(
+                MarginWithDiscount >= GM_MIN,
+                (Volume2025 + VolumePerdido* (Discount/0.25)) * (1-Discount) * UnitPrice ,
+                "Atenção: Margem abaixo do permitido"
+                ) 
+        ),
+       NetSales2025
+    )
+
+RETURN IFERROR(DIVIDE(Sales_Recovery - NetSales2025,NetSales2025,BLANK()),BLANK())
+```
 
 ![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Dashboard/Images/10.png)
  
