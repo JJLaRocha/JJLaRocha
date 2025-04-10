@@ -81,7 +81,7 @@ Competitions Table
 
 As you can see, there are common columns between all the tables, and those common columns is what we are going to use to relate the tables with one and other (Primary Key of a certain table always find the same column as foreign key at least one other table). Here is the general schema for the database with the relationships between the tables:
 
-!(image)[https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Football%20Database%20(SQL)/Imagens/1.png]
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Football%20Database%20(SQL)/Imagens/1.png)
 
 And here is the code I used to create the database structure inside PgAdmin:
 
@@ -181,7 +181,7 @@ ORDER BY
 
 Return Table:
 
-!(image)[https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Football%20Database%20(SQL)/Imagens/2.png]
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Football%20Database%20(SQL)/Imagens/2.png)
 
 As you can see, there is a bit of an issue with the Transfer Season column, since it is not actually returning values in the right order. Let's fix that:
 
@@ -202,7 +202,7 @@ FROM (	SELECT
 
 Basically what we did was create a rule that says the following: whenever the first character (not actually integer since the column in varchar) is a ‘1’ or a ‘0’, you add a ‘20’ to both numbers before and after the delimiter ‘/’. When the first character is a ‘9’, the 1990’s, you add a ‘19’. The exception is for when first part of the season is 99, to which you add a ‘20’ after the delimiter, since it will be 1999/2000.
 
-!(image)[https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Football%20Database%20(SQL)/Imagens/3.png]
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Football%20Database%20(SQL)/Imagens/3.png)
 
 This was the result, so let’s actually make it a real column of our table transfers:
 
@@ -219,7 +219,7 @@ SET season = CASE
 SELECT * FROM transfers;
 ```
 
-!(image)[https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Football%20Database%20(SQL)/Imagens/4.png]
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Football%20Database%20(SQL)/Imagens/4.png)
 
 And there we go, it’s actually a part of our table now! Let’s get a bit more data of each player whose transfer was the highest in value. In the return table for the first query we saw that the column market_value_in_eur had some null values so let’s keep that in mind. Also, we will want to filter our results by a window function column so we will use a CTE:
 
@@ -251,7 +251,7 @@ WHERE
 
 Result table below (in excel because I copied for all rows to be visible this time), and we have answered our first question!
 
-!(image)[https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Football%20Database%20(SQL)/Imagens/5.png]
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Football%20Database%20(SQL)/Imagens/5.png)
 
 ### 2 - Are there any country/geographical or club related tendency for these most expensive players?
 
@@ -269,11 +269,11 @@ ORDER BY
 	COUNT(*) DESC;
 ```
 
-!(image)[https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Football%20Database%20(SQL)/Imagens/6.png]
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Football%20Database%20(SQL)/Imagens/6.png)
 
 With no surprise that most players are from Europe, with the rest of the share being of South America. Now let’s do the same for clubs from and clubs to, so basically in the last query just replace the column country from club from and club into, respectively, and we get:
 
-!(image)[https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Football%20Database%20(SQL)/Imagens/7.png]                 
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Football%20Database%20(SQL)/Imagens/7.png)              
 
 As you can see, Real Madrid really dominates when you look for the club that paid for the most expensive player of each season, whereas the clubs that sold these players have a much more balanced distribution!
 
@@ -322,7 +322,7 @@ SELECT * FROM CTE WHERE rankk <= 3 ORDER BY season,rankk;
 
 Result table:
 
-!(image)[https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Football%20Database%20(SQL)/Imagens/8.png]
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Football%20Database%20(SQL)/Imagens/8.png)
 
 We could easily see also the top 3 spending leagues by just changing the join between club and transfers tables, joining club_id from table clubs with table to_club_id from transfers table.
 
@@ -389,7 +389,7 @@ This merging of the two tables with Union clause is because the same manager nam
 
 Result table clip:
 
-!(image)[https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Football%20Database%20(SQL)/Imagens/9.png]
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Football%20Database%20(SQL)/Imagens/9.png)
 
 ### 5 - What manager has the highest winning ratio?
 
@@ -487,4 +487,4 @@ WHERE b.games > 100
 ```
 Result table clip:
 
-!(image)[https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Football%20Database%20(SQL)/Imagens/10.png]
+![image](https://github.com/JJLaRocha/JJLaRocha/blob/main/Projects/Football%20Database%20(SQL)/Imagens/10.png)
