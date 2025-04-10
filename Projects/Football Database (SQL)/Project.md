@@ -8,22 +8,22 @@ I gathered information about players, clubs, competitions and even transfers and
 
 ### Tables Schema
 
--Players Table
-	-"player_id" – Primary Key
-	-"first_name"
-	-"last_name"
-	-"name"
-	-"last_season"
-	-"current_club_id"
-	-"country_of_birth"
-	-"city_of_birth"
-	-"country_of_citizenship"
-	-"date_of_birth"
-	-"sub_position"
-	-"position"
-	-"foot"
-	-"height_in_cm"
-	-"current_club_name"
+Players Table
+-"player_id" – Primary Key
+-"first_name"
+-"last_name"
+-"name"
+-"last_season"
+-"current_club_id"
+-"country_of_birth"
+-"city_of_birth"
+-"country_of_citizenship"
+-"date_of_birth"
+-"sub_position"
+-"position"
+-"foot"
+-"height_in_cm"
+-"current_club_name"
 
 Clubs Table
 "club_id" – Primary Key
