@@ -8,7 +8,8 @@ I gathered information about players, clubs, competitions and even transfers and
 
 ### Tables Schema
 
-Players Table
+#### Players Table
+
 - "player_id" – Primary Key
 - "first_name"
 - "last_name"
@@ -25,57 +26,59 @@ Players Table
 - "height_in_cm"
 - "current_club_name"
 
-Clubs Table
-"club_id" – Primary Key
-"name"
-"domestic_competition_id"
-"total_market_value"
-"squad_size"
-"average_age"
-"foreigners_number"
-"foreigners_percentage"
-"national_team_players"
-"stadium_name"
-"stadium_seats"
-"coach_name"
-"indic"
+#### Clubs Table
 
-Transfers Table
-"transfer_id" – Primary Key
-"player_id"
-"tranfer_date"
-"transfer_season"
-"from_club_id"
-"to_club_id"
-"from_club_name"
-"to_club_name"
-"transfer_fee"
-"market_value_in_eur"
-"player_name"
-"season"
+- "club_id" – Primary Key
+- "name"
+- "domestic_competition_id"
+- "total_market_value"
+- "squad_size"
+- "average_age"
+- "foreigners_number"
+- "foreigners_percentage"
+- "national_team_players"
+- "stadium_name"
+- "stadium_seats"
+- "coach_name"
+- "indic"
 
-Club Games Table
-"game_id" – Primary Key
-"club_id"
-"own_goals"
-"own_position"
-"own_manager_name"
-"opponent_id"
-"opponent_goals"
-"opponent_position"
-"opponent_manager_name"
-"hosting"
+#### Transfers Table
 
-Competitions Table
-"competition_id" – Primary Key
-"competition_code"
-"name"
-"sub_type"
-"type"
-"country_id"
-"country_name"
-"domestic_league_code"
-"confederation"
+- "transfer_id" – Primary Key
+- "player_id"
+- "tranfer_date"
+- "transfer_season"
+- "from_club_id"
+- "to_club_id"
+- "from_club_name"
+- "to_club_name"
+- "transfer_fee"
+- "market_value_in_eur"
+- "player_name"
+- "season"
+
+#### Club Games Table
+- "game_id" – Primary Key
+- "club_id"
+- "own_goals"
+- "own_position"
+- "own_manager_name"
+- "opponent_id"
+- "opponent_goals"
+- "opponent_position"
+- "opponent_manager_name"
+- "hosting"
+
+#### Competitions Table
+- "competition_id" – Primary Key
+- "competition_code"
+- "name"
+- "sub_type"
+- "type"
+- "country_id"
+- "country_name"
+- "domestic_league_code"
+- "confederation"
 
 ### Database Schema
 
